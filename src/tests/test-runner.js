@@ -3,7 +3,7 @@ import http from 'http';
 
 console.log('Iniciando prueba de integración del servidor...');
 
-const serverProcess = spawn('node', ['src/index.js'], {
+const serverProcess = spawn('node', ['../src/index.js'], {
     env: { ...process.env, PORT: '3000', NODE_ENV: 'test' },
     detached: false
 });
