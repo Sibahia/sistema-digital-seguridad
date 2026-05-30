@@ -73,4 +73,4 @@ Se exige el uso estricto del estándar [Conventional Commits](https://www.conven
 
 ---
 
-**Gracias por contribuir de forma segura y ordenada!**
+**¡Gracias por contribuir de forma segura y ordenada!**
