@@ -25,10 +25,12 @@ jobs:
           version: 11.2.2
 
       - name: Install Project Dependencies
+        working-directory: ./src
         run: pnpm install --frozen-lockfile
 
       - name: Execute Pipeline Validation
         env:
           PORT: 3000
           NODE_ENV: test
+        working-directory: ./src
         run: pnpm test
