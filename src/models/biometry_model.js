@@ -1,7 +1,7 @@
 import { DataTypes } from 'sequelize';
 import { sequelize } from '../db/connection.js';
 
-export const Biometry = sequelize.define('biometry', {
+export const Biometry = sequelize.define('Biometry', {
     id: {
         type: DataTypes.INTEGER,
         primaryKey: true,

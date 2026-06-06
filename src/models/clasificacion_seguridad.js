@@ -1,7 +1,7 @@
 import { DataTypes } from 'sequelize';
 import { sequelize } from '../db/connection.js';
 
-export const clasificacionSeguridad = sequelize.define('clasificacion_seguridad', {
+export const clasificacionSeguridad = sequelize.define('Clasificacion_seguridad', {
     id: {
         type: DataTypes.INTEGER,
         primaryKey: true,
